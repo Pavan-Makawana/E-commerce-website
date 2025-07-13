@@ -1,0 +1,208 @@
+﻿*{
+   margin:0;
+    padding: 0;
+}
+
+.navbar{
+    height:70px;
+    width: 100%; 
+    background-color:#080808;
+    display: flex;
+    color: white;
+    box-shadow:2px 3px 10px rgb(7,7,7);
+    position:fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    z-index: 2;
+}
+
+.navbar h3{
+    position:relative;
+    left: 30%;
+    top: 10px;
+    font-size: 28px;
+    font-family:'Courier New', Courier, monospace;
+    text-transform:uppercase;
+}
+.a-1,.a-2,.a-3{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    width: auto;
+    text-align: center;
+    list-style-type:none;
+    padding: 7px;         
+    display:inline-block;
+    position: relative;
+}
+
+.a-1:hover,.a-2:hover,.a-3:hover
+{
+    color:#f18930;
+}
+
+.a-1::before,.a-2::before,.a-3::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #f18930;
+    transition-duration: .5s;
+}
+
+.a-1:hover::before,.a-2:hover::before,.a-3:hover::before
+{
+    width:80%;   
+}
+.a-1{
+    position: absolute;
+    right: 19%;
+}
+
+.a-2{
+    position: absolute;
+    right: 12%;
+}
+
+.a-3{
+    position: absolute;
+    right: 6%;
+}
+
+.a-4{
+    position: absolute;
+    right: 0.5%;
+}
+
+.a-4:hover{
+    scale: 1.3;
+}
+
+#add_to_card{
+    height: 60px;
+    width: 60px;
+    /* border-radius: 50%; */
+    
+}
+
+#card{
+    color: #fff;
+    position: absolute;
+    right: 1.3%;
+    top: 46px;
+}
+
+                    /*    own office    */
+
+#office img{
+    width: 100%;
+    height: 540px;
+    position: relative;
+    top: 63px;
+    z-index: -1;
+    margin-top:5px;
+    filter: saturate(150%);
+    filter: drop-shadow(0 0 5px black);
+}
+
+#own-office{
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 15px;
+    margin-top: -5px;
+    font-size: 55px;
+}
+
+#product{
+    margin: 50px;
+    padding: 10px;
+    border-bottom: 4px solid ;
+    font: 60px bolder;
+    font-weight: 700;
+    border-radius: 9%;
+    text-align: center;
+    
+}
+                /* home-line 1 */
+
+main{
+    padding: 10px;
+}
+
+main h2{
+    font-size:40px;
+    padding-top: 10px;
+}
+
+main a img{
+    height: 80%;
+    width: 80%;
+    padding: 15px 15px 45px 15px;     
+}
+
+.img1,.img2,.img3,.img4,.img5,.img6{
+    height: 20%;
+    width: 45%;
+    /* background-color: rgba(215, 215, 223, 0.522); */
+    color: #0b0b0b;
+    text-align: center;   
+    margin:5px 5px 5px 5px ; 
+}
+
+.img1:hover,.img2:hover,.img3:hover,.img4:hover,.img5:hover,.img6:hover{
+    box-shadow:4px 6px 40px black ;
+    background-color: rgba(176, 176, 179, 0.522);
+    border-radius: 10px;
+}
+
+    /* box 1-2 */
+
+.main-line1,.main-line2,.main-line3{
+    display:flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+.main-line1{
+    margin-top: 10px;
+}
+
+/* *****************************************why************************ */
+
+
+.why{
+    text-align: center;
+    font-size: 45px;
+    border-bottom: 4px solid ;
+    font-weight: 700;
+    border-radius: 9%;
+    padding-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;    
+}
+
+.p{
+    margin: 0;
+    font-size: 20px;
+    color: rgb(52, 52, 52);
+    text-align: left;
+    display: inline;
+}
+
+#div1{
+    display: inline-block;
+    margin: 5%;
+}
+
+#div1 img{
+    height: 200px;
+    width:200px;
+    mix-blend-mode: darken;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+}
+

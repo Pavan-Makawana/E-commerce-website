@@ -1,0 +1,23 @@
+﻿.success{
+    background-color: rgb(255, 255, 255);
+    height: 27vh;
+    width: 30vw;
+    position:fixed;
+    border-radius: 10px;
+    filter: drop-shadow(-7px -7px 100px );
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 34.5%;
+    font-weight: 500;
+    font-size:20px;
+    z-index: 100;
+}    
+
+#ho{
+    color:hwb(243 0% 0%);
+    text-decoration:none;    
+}
+    
+#ho:hover{
+    border-bottom: 2px solid hwb(243 0% 0%) ;
+}
